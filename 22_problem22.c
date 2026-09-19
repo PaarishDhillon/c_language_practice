@@ -1,0 +1,20 @@
+// To display use of bitwise operator
+
+#include <stdio.h>
+
+int main()
+{
+    int a = 5, b = 3;
+
+    printf("a & b = %d\n", a & b);      // Bitwise AND
+    printf("a | b = %d\n", a | b);      // Bitwise OR
+    printf("a ^ b = %d\n", a ^ b);      // Bitwise XOR
+    printf("~a = %d\n", ~a);            // Bitwise NOT
+    printf("~b = %d\n", ~b);            // Bitwise NOT
+    printf("a << 1 = %d\n", a << 1);    // Left shift
+    printf("b << 1 = %d\n", b << 1);    // Left shift
+    printf("a >> 1 = %d\n", a >> 1);    // Right shift
+    printf("b >> 1 = %d\n", b >> 1);    // Right shift
+
+    return 0;
+}
