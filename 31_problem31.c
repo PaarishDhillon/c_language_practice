@@ -8,6 +8,6 @@ int main()
         sum+=i;
         i++;
     }
-    printf("%d",sum);
+    printf("The sum of first 10 natural numbers = %d",sum);
     return 0;
 }
